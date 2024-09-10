@@ -1,0 +1,16 @@
+.footer {
+  width: 960px;
+  background-color: #111111;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  p {
+    color: white;
+    span {
+      color: #777777;
+    }
+  }
+  a {
+    color: white;
+  }
+}

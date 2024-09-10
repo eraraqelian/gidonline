@@ -1,0 +1,79 @@
+.filmsContainer {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  .films {
+    width: 672px;
+    background-color: #111111;
+    .title {
+      width: 100%;
+      height: 50px;
+      // border: 1px solid wheat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      h2 {
+        color: #aaaaaa;
+        span {
+          color: red;
+        }
+      }
+    }
+    .watch {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 5px;
+      gap: 5px;
+      .theWolf {
+        display: inline-block;
+        padding: 10px 5px;
+        background-color: #222222;
+        color: #aaaaaa;
+        border-radius: 5px;
+        font-size: 14px;
+        text-align: center;
+        transition: 0.3s;
+        img {
+          display: block;
+          width: 200px;
+          height: 300px;
+          border-radius: 5px;
+        }
+        &:hover {
+          transition: 0.3s;
+          background-color: #454545;
+        }
+      }
+    }
+    .pages {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      padding: 10px 0;
+      a {
+        display: inline-block;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: white;
+        background-color: #333333;
+        // border: 1px solid #007bff;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: background-color 0.2s, color 0.2s;
+
+        &:hover {
+          background-color: #007bff;
+          color: #fff;
+        }
+
+        &:active {
+          background-color: #0056b3;
+          border-color: #004085;
+        }
+      }
+    }
+  }
+}

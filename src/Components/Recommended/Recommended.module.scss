@@ -1,0 +1,125 @@
+.recommended {
+  width: 960px;
+  background-color: #111111;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .recFilms {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .deadpool {
+      display: inline-block;
+      padding: 10px 5px;
+      background-color: #222222;
+      color: #aaaaaa;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+      transition: 0.3s;
+      img {
+        display: block;
+        width: 150px;
+        height: 200px;
+        border-radius: 5px;
+      }
+      &:hover {
+        transition: 0.3s;
+        background-color: #454545;
+      }
+    }
+    .blackWidow {
+      display: inline-block;
+      padding: 10px 5px;
+      background-color: #222222;
+      color: #aaaaaa;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+      transition: 0.3s;
+      img {
+        display: block;
+        width: 150px;
+        height: 200px;
+        border-radius: 5px;
+      }
+      &:hover {
+        transition: 0.3s;
+        background-color: #454545;
+      }
+    }
+    .avengers {
+      display: inline-block;
+      padding: 10px 5px;
+      background-color: #222222;
+      color: #aaaaaa;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+      transition: 0.3s;
+      img {
+        display: block;
+        width: 150px;
+        height: 200px;
+        border-radius: 5px;
+      }
+      &:hover {
+        transition: 0.3s;
+        background-color: #454545;
+      }
+    }
+  }
+  .genres {
+    width: 950px;
+    // height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 30px;
+      padding: 0;
+      background-color: #181818;
+      color: #aaaaaa;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: center;
+      overflow: hidden;
+      border-radius: 5px;
+      box-sizing: border-box;
+      transition: 0.3s;
+      &:hover {
+        transition: 0.3s;
+        background-color: #454545;
+      }
+    }
+  }
+  .cast {
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #181818;
+    a {
+      color: #aaaaaa;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

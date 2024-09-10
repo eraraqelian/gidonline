@@ -1,0 +1,80 @@
+.movieContainer {
+  width: 960px;
+  background-color: #111111;
+  height: 200px;
+  margin: 0 auto;
+  .container {
+    display: flex;
+    .film {
+      width: 672px;
+      // height: 1000px;
+      background-color: #111111;
+      padding-top: 10px;
+
+      .about {
+        width: 100%;
+        height: 450px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        background-color: #222222;
+        margin-top: 10px;
+      }
+      h3 {
+        padding-top: 10px;
+        color: red;
+      }
+      .aboutFilm {
+        color: white;
+      }
+      .watch {
+        width: 100%;
+        height: 500px;
+        background-color: #111111;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+        video {
+          width: 650px;
+          height: 400px;
+        }
+      }
+      .theFilm {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 200px;
+          height: 300px;
+        }
+        .title {
+          width: 450px;
+          .name {
+            width: 100%;
+            height: 43px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            background-color: #222222;
+          }
+          .year {
+            width: 100%;
+            height: 43px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            //   background-color: #222222;
+          }
+        }
+      }
+    }
+  }
+}
